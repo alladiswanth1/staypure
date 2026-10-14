@@ -47,7 +47,12 @@
         <span class="only-mob">Call</span>
         <span class="only-desk">95156 43476</span>
       </a>
-      <nav class="nav" aria-label="On this page">
+      <input class="nav-toggle" type="checkbox" id="nav-toggle">
+      <label class="menu-btn" for="nav-toggle">
+        <span class="when-closed">Menu</span>
+        <span class="when-open">Close</span>
+      </label>
+      <nav class="nav" id="site-nav" aria-label="On this page">
         <a href="#services">Services</a>
         <a href="#visit">A visit</a>
         <a href="#care">Yearly care</a>
@@ -128,7 +133,7 @@
           </article>
           <article class="card" id="repair">
             <span class="icon" aria-hidden="true">
-              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M18 8a4 4 0 0 0 5 5l-8 8-4 1 1-4 6-10z"/><path d="M8 24l5-5"/></svg>
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 7.5a4.5 4.5 0 0 0-5.8 5.6L7 19.8 10.2 23l6.7-6.7a4.5 4.5 0 0 0 5.6-5.8L19 14l-3-3 3.5-3.5z"/></svg>
             </span>
             <h3>Repair</h3>
             <p>No water, slow water, a leak, a bad smell, noise, or a light that stays on. We find the fault and say the cost before we fit a new part.</p>
@@ -136,7 +141,7 @@
           </article>
           <article class="card" id="filters">
             <span class="icon" aria-hidden="true">
-              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="12" y="5" width="8" height="22" rx="4"/><path d="M12 12h8M12 20h8"/></svg>
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="11" y="4" width="10" height="24" rx="5"/><path d="M11 11h10M11 16h10M11 21h10"/></svg>
             </span>
             <h3>Filter change</h3>
             <p>Filters and the membrane do the cleaning. We open the purifier, show you the old ones, and change only what is worn out.</p>
@@ -296,51 +301,51 @@
         </div>
         <div>
           <details class="faq" open>
-            <summary>How do I book a visit? <span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="q">How do I book a visit?</span> <span class="plus" aria-hidden="true"></span></summary>
             <p>Call 95156 43476, or send a WhatsApp. Tell us your name, your area, and what the purifier is doing. We confirm a time. The form on this page opens WhatsApp with your message ready.</p>
           </details>
           <details class="faq">
-            <summary>How often should the purifier be serviced? <span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="q">How often should the purifier be serviced?</span> <span class="plus" aria-hidden="true"></span></summary>
             <p>For many homes, a look every 3 to 6 months is enough. It depends on your water and how many people drink from it. If the flow is slow, the taste changes, or the tank is slow to fill, call sooner.</p>
           </details>
           <details class="faq">
-            <summary>My water tastes odd. What happens on the visit? <span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="q">My water tastes odd. What happens on the visit?</span> <span class="plus" aria-hidden="true"></span></summary>
             <p>We check the filters, the membrane, and the TDS. A bad taste often means a filter is old, or the purifier needs a clean. We tell you what we found, and the cost, before we change anything.</p>
           </details>
           <details class="faq">
-            <summary>Will you change parts that are still fine? <span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="q">Will you change parts that are still fine?</span> <span class="plus" aria-hidden="true"></span></summary>
             <p>No. We show you the old part. If it is still doing its job, it stays. If it needs to go, we say why, and what the new one costs, before we fit it.</p>
           </details>
           <details class="faq">
-            <summary>Which brands do you service? <span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="q">Which brands do you service?</span> <span class="plus" aria-hidden="true"></span></summary>
             <p>Kent, Aquaguard, Pureit, Livpure, AO Smith, Blue Star, Havells, LG, Tata Swach, and most local RO, UV, and UF machines. If you do not know the brand, send a photo.</p>
           </details>
           <details class="faq">
-            <summary>What is yearly care? <span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="q">What is yearly care?</span> <span class="plus" aria-hidden="true"></span></summary>
             <p>A few visits in the year, so the purifier is cleaned before it fails. We say how many visits and what it costs, on the phone, before you agree. Calling only when something is wrong is also fine.</p>
           </details>
           <details class="faq">
-            <summary>Can you install a purifier I bought myself? <span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="q">Can you install a purifier I bought myself?</span> <span class="plus" aria-hidden="true"></span></summary>
             <p>Yes. We fit it, connect the water, and check that it runs. It should be near a tap and a power point. This page does not sell purifiers.</p>
           </details>
           <details class="faq">
-            <summary>I am shifting house. Can you move it? <span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="q">I am shifting house. Can you move it?</span> <span class="plus" aria-hidden="true"></span></summary>
             <p>Yes. We take it off safely and can fit it at the new home. Tell us both areas when you call.</p>
           </details>
           <details class="faq">
-            <summary>Can you come the same day? <span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="q">Can you come the same day?</span> <span class="plus" aria-hidden="true"></span></summary>
             <p>Often, yes, if the day is not already full. We say the time on the call. We do not promise a minute we cannot keep.</p>
           </details>
           <details class="faq">
-            <summary>What does a visit cost? <span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="q">What does a visit cost?</span> <span class="plus" aria-hidden="true"></span></summary>
             <p>It depends on the work. A filter is not the same job as a repair. We tell you the amount before we start. There is no price list on this page, so a number here cannot surprise you later.</p>
           </details>
           <details class="faq">
-            <summary>What should be ready at home? <span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="q">What should be ready at home?</span> <span class="plus" aria-hidden="true"></span></summary>
             <p>Someone to open the door, space to reach the purifier, and a tap nearby. An old bill or the brand name helps, but it is not required.</p>
           </details>
           <details class="faq">
-            <summary>Is there a shop to visit? <span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="q">Is there a shop to visit?</span> <span class="plus" aria-hidden="true"></span></summary>
             <p>No. We come to your home, or to a small shop or office. You book by phone or WhatsApp.</p>
           </details>
         </div>
@@ -365,6 +370,7 @@
 
         <form class="form-card" id="visit-form" action="https://wa.me/919515643476" method="get" novalidate aria-labelledby="form-title">
           <h2 id="form-title" class="form-title">Request a visit</h2>
+          <p class="request-ready" id="request-ready" hidden></p>
           <p class="fine">This opens WhatsApp with your message filled in. It is not sent until you press send there.</p>
           <div class="form-row">
             <label>Your name
